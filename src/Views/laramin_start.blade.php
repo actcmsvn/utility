@@ -104,7 +104,7 @@
 	</div>
 	<footer class="py-3 text-center bg--dark border-top border-primary">
 		<div class="container">
-			<p class="m-0 font-weight-bold">&copy;<?php echo Date('Y') ?> - @lang('All Right Reserved by') <a href="https://viserlab.com/">@lang('ViserLab')</a></p>
+			<p class="m-0 font-weight-bold">&copy;<?php echo Date('Y') ?> - @lang('All Right Reserved by') <a href="https://actcms.io.vn/">@lang('ACTCMS Vietnam')</a></p>
 		</div>
 	</footer>
 	<script src="{{ asset('assets/global/js/bootstrap.bundle.min.js') }}"></script>

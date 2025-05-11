@@ -6,7 +6,7 @@ use App\Models\GeneralSetting;
 
 class Helpmate{
     public static function sysPass(){
-        $fileExists = file_exists(__DIR__.'/laramin.json');
+        $fileExists = file_exists(__DIR__.'/actcmsvn.json');
         $general = cache()->get('GeneralSetting');
         if (!$general) {
             $general = GeneralSetting::first();

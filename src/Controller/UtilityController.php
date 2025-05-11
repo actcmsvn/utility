@@ -10,13 +10,13 @@ use ACTCMS\Utility\VugiChugi;
 
 class UtilityController extends Controller{
 
-    public function laraminStart()
+    public function actcmsvnStart()
     {
         $pageTitle = VugiChugi::lsTitle();
-        return view('Utility::laramin_start',compact('pageTitle'));
+        return view('Utility::actcmsvn_start',compact('pageTitle'));
     }
 
-    public function laraminSubmit(Request $request){
+    public function actcmsvnSubmit(Request $request){
         $param['code'] = $request->purchase_code;
         $param['url'] = env("APP_URL");
         $param['user'] = $request->envato_username;
@@ -46,14 +46,14 @@ $envString .= $k.'='.$en.'
         fwrite($envFile, $envString);
         fclose($envFile);
 
-        $laramin = fopen(dirname(__DIR__).'/laramin.json', "w");
+        $actcmsvn = fopen(dirname(__DIR__).'/actcmsvn.json', "w");
         $txt = '{
     "purchase_code":'.'"'.$request->purchase_code.'",'.'
     "installcode":'.'"'.@$response->installcode.'",'.'
     "license_type":'.'"'.@$response->license_type.'"'.'
 }';
-        fwrite($laramin, $txt);
-        fclose($laramin);
+        fwrite($actcmsvn, $txt);
+        fclose($actcmsvn);
 
         $general = GeneralSetting::first();
         $general->maintenance_mode = 0;
