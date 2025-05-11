@@ -1,0 +1,24 @@
+{
+    "name": "actcmsvn/utility",
+    "description": "Utility services for application.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "actcmsvn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ACTCMS\\Utility\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ACTCMS\\Utility\\UtilityServiceProvider"
+            ]
+        }
+    }
+}
