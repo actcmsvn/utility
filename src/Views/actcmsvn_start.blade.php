@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>@lang('Easy Activator by ViserLab')</title>
+	<title>@lang('Easy Activator by ACTCMS')</title>
 	<link rel="stylesheet" href="{{ asset('assets/global/css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/global/css/all.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('assets/global/css/installer.css') }}">
@@ -24,9 +24,9 @@
 		<div class="container">
 			<div class="d-flex align-items-center justify-content-between header gap-3">
                 @if(file_exists($logo) && is_file($logo))
-				<img class="logo" src="{{ getImage($logo) }}" alt="ViserLab">
+				<img class="logo" src="{{ getImage($logo) }}" alt="ACTCMS">
                 @else
-				<img class="logo" src="{{ getImage('assets/images/logoIcon/logo.png') }}" alt="ViserLab">
+				<img class="logo" src="{{ getImage('assets/images/logoIcon/logo.png') }}" alt="ACTCMS">
                 @endif
 				<h3 class="title">@lang('Easy Activation')</h3>
 			</div>
@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="alert alert-primary" role="alert">
                                         <p class="fs-17">@lang('Application'): {{ systemDetails()['name'] }} - v{{ systemDetails()['version'] }}</p>
-                                        <p class="fs-17">@lang('Envato Username'): <span class="envato_username"></span></p>
+                                        <p class="fs-17">@lang('ShareCode Username'): <span class="envato_username"></span></p>
                                         <p class="fs-17">@lang('Purchase Code'): <span class="purchase_code"> </span></p>
                                         <p class="fs-17">@lang('Your Email'): <span class="email"></span></p>
                                         <p class="fs-17 mb-0 word-break-all">@lang('Activation URL'): {{ Laramin\Utility\Helpmate::appUrl() }}</p>
