@@ -51,18 +51,18 @@ class VugiChugi{
     public static function lcLabRoute()
     {
         $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/hcqngrf/irefvba/');
+        return $variab('uggcf://ypfprar.npgpzf.vb.ia/hcqngrf/irefvba/');
     }
 
     public static function lcLabSbm()
     {
         $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/npgvingr');
+        return $variab('uggcf://yvprafr.npgpzf.vb.ia/npgvingr');
     }
 
     public static function clsNm(){
         $variab = self::variab();
-        return $variab('Ynenzva\Hgvyvgl\Pbagebyyre\HgvyvglPbagebyyre');
+        return $variab('NPGPZF\Hgvyvgl\Pbagebyyre\HgvyvglPbagebyyre');
     }
 
     public static function pshMdl(){
@@ -82,16 +82,16 @@ class VugiChugi{
 
     public static function splnk(){
         $variab = self::variab();
-        return $variab('uggcf://ivfreyno.pbz/fhccbeg');
+        return $variab('uggcf://fhccbeg.npgpzf.vb.ia');
     }
 
     public static function upman(){
         $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/ncv/erdhrfg-hcqngr-svyr');
+        return $variab('uggcf://yvprafr.npgpzf.vb.ia/ncv/erdhrfg-hcqngr-svyr');
     }
 
     public static function gttmp(){
         $variab = self::variab();
-        return $variab('uggcf://yvprafr.ivfreyno.pbz/hcqngrf/grzcyngrf/');
+        return $variab('uggcf://yvprafr.npgpzf.vb.ia/hcqngrf/grzcyngrf/');
     }
 }
